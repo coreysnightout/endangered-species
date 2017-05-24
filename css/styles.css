@@ -2,7 +2,117 @@
   box-sizing: border-box;
 }
 
-body {
+.masthead {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+  text-align: center;
+}
+
+.map {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  max-width: 1800px;
+  min-width: 1800px;
+}
+
+#world-map {
+  position: relative;
+}
+
+.species {
+  position: absolute;
+}
+
+
+p {
+  display: none;
+}
+
+.species-photo:hover ~ p {
+  display: block;
+  background-color: white;
+  width: 150px;
+  padding: 5px;
+  border-radius: 5%;
+}
+
+#beluga-photo:hover ~ p {
+  position: absolute;
+  bottom: 20px;
+  left: 150px;
+}
+
+#gold-cat-photo:hover ~ p {
+  position: absolute;
+  bottom: 10px;
+  left: 120px;
+}
+
+#beluga {
+  position: absolute;
+  bottom: 230px;
+  left: 860px;
+}
+
+#gold-cat {
+  position: absolute;
+  bottom: 430px;
+  left: 900px;
+}
+
+#gold-cat img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.species-photo {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
   margin: 0;
   background-color: #f9f7f1;
 }
@@ -45,8 +155,8 @@ h1:before, h1:after{
 
 .description {
   position: absolute;
-  background-color: rgb(225,225,225);
-  border: solid black 2px;
+  background-color: rgb(252, 255, 225);
+  border: solid white 2px;
   text-align: center;
   border-radius: 5px;
   padding: 5px;
@@ -55,9 +165,9 @@ h1:before, h1:after{
 }
 
 .arrow {
-  border-left: solid black 2px;
-  border-top: solid black 2px;
-  background: rgb(225,225,225);
+  border-left: solid white 2px;
+  border-top: solid white 2px;
+  background: rgb(252, 255, 225);
   height: 10px;
   width: 10px;
   transform: rotate(45deg);
@@ -67,7 +177,7 @@ h1:before, h1:after{
 }
 
 .photo:hover {
-  box-shadow: 0px 0px 100px;
+  box-shadow: 0px 0px 50px;
   color: #2f4c6a;
 }
 
@@ -95,4 +205,4 @@ h1:before, h1:after{
   position: absolute;
   top: 600px;
   left: 1450px;
-}
+}*/
